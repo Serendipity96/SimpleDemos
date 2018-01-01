@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js" defer></script>
 </head>
 <body>
 
-<div id="music">
+<div class="music">
     <img src="img/music_pointer.png">
-    <img src="img/music_disc.png">
+    <img id="music" class="play" src="img/music_disc.png">
 </div>
 
 <div class="page" id="page1">
@@ -24,6 +25,7 @@
 
 <div class="page" id="page2">
     <div class="bg"></div>
+    <div class="bg p2_bg_loading"></div>
     <div class="p2_circle"></div>
     <div class="p2_2016"></div>
 </div>
@@ -37,6 +39,6 @@
     <div class="p3_blessing"></div>
 
 </div>
-
+<audio src="audio/sky.mp3" autoplay="autoplay"></audio>
 </body>
 </html>
