@@ -311,7 +311,7 @@ html, body {
 
 #page3 {
     display: none;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 #page3 .fadeIn {
